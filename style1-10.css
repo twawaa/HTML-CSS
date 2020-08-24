@@ -35,15 +35,15 @@ main {
 }
 .step-img2 {
   height: 150px;
+  background-image: url(./flow02.png);
   background-position: bottom;
   background-size: cover;
-  background-image: url(./flow02.png);
 }
 .step-img3 {
+  background-image: url(./flow03.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
-  background-image: url(./flow03.png);
 }
 .step-num {
   padding: 3px;
@@ -61,7 +61,6 @@ footer {
   background-color: #aaa;
 }
 
-
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {  
   header {
@@ -72,18 +71,9 @@ footer {
     margin: 50px auto;
   }
   .step-box {
-    width: 99%;
+    width: 100%;
     float: none;
     margin: 20px auto;
-  }
-  .step-img1 {
-    height: 200px;
-  }
-  .step-img2 {
-    height: 200px;
-  }
-  .step-img3 {
-    height: 200px;
   }
   footer {
     width: 100%;
